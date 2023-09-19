@@ -1,0 +1,152 @@
+header{
+    margin-top: 10px;
+    display: flex;
+    align-items:stretch;
+  }
+
+header>div{
+    background-color:rgb(255, 49, 49);
+    height: 150px;
+  }
+
+#lewa{
+    width: 150px;
+    margin-right: 10px;
+  }
+
+#prawa{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+  }
+
+main{
+    display: flex;
+    width: 100%;
+    height:700px;
+  }
+
+.jeden{
+    width:20%;
+    margin-right: 15px;
+  }
+
+#a{
+    height: 35%;
+    background-color:rgb(0, 151, 178);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+#b{
+    height: 65%;
+    background-color: rgb(0, 151, 178);
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.dwa{
+    width:55%;
+    margin-right: 15px;
+  }
+
+#c{
+    height: 60%;
+    background-color:rgb(0, 191, 99);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+
+#d{
+    height:40%;
+    background-color: rgb(0, 191, 99);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+.trzy{
+    width:25%;
+    margin-right: 15px
+  }
+
+#e{
+    margin: 15px 0 15px 0;
+    height:27%;
+    background-color: rgb(255, 102, 196);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+
+#f{
+    height:27%;
+    background-color: rgb(255, 102, 196);
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+
+#g{
+    height:44%;
+    background-color: rgb(255, 102, 196);
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+#obrazek{
+    width: 100%;
+    height: 100%;
+  }
+
+#wideo{
+    width: 100%;
+    height: 100%;
+  }
+
+#mapa{
+  width: 100%;
+  height: 100%;
+}
+
+.krol:hover{
+  background-color: yellow;
+}
+
+.krolowa:hover{
+  background-color: yellow;
+}
+
+.kon:hover{
+  background-color: yellow;
+}
+
+.goniec:hover{
+  background-color: yellow;
+}
+
+#lewy{
+  width: 40%;
+  float: left;
+}
+
+#prawy{
+  width: 40%;
+  float: right;
+}

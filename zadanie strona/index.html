@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+
+    var obrazki = new Array();
+    obrazki[1] = "obraz1.JPG";
+    obrazki[2] = "obraz2.JPG";
+    var sekund = 1;
+    var a = 1;
+
+    function zmien()
+    {
+        var ile = obrazki.length;
+        document.getElementById("obrazek").src = obrazki[a];    
+        a++;
+        if(ile==a) {
+            a=1;
+        }
+    }
+    setInterval("zmien()", sekund*1000);
+    </script>
+</head>
+<body>
+  <header>
+    <div id="lewa">
+        <img src="logo.png" width="145px" height="145">
+    </div>
+    <div id="prawa">
+        <h1>Tytuł</h1>
+    </div>
+  </header>
+  <main>
+    <div class="jeden">
+        <div id="a">
+            <img src="obraz1.JPG" id="obrazek" />
+        </div>
+        <div id="b">
+            <h1>Menu</h1>
+            <a href=""><img src="krol.svg" width="70" height="70" class="krol"></a><br /><br />
+            <a href=""><img src="krolowa.svg" width="70" height="70"  class="krolowa"></a><br /><br />
+            <a href=""><img src="kon.svg" width="70" height="70"  class="kon"></a><br /><br />
+            <a href=""><img src="goniec.svg" width="70" height="70"  class="goniec"></a>
+        </div>
+    </div>
+    <div class="dwa">
+        <div id="c">
+            <h1>Artykuł</h1>
+            <div id="lewy">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div id="prawy">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <img src="gimp.png" width="200" height="150">
+        </div>
+        <div id="d">
+            <iframe src="https://www.youtube.com/embed/Yl0NjHe6Hwo?si=9UGanuYgkoxG1Kf1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="wideo"></iframe>
+        </div>
+    </div>
+    <div class="trzy">
+        <div id="e">
+            <form>
+                <h2>Rejestracja</h2>
+                <input name="login"> Login<br /><br />
+                <input type=password> Hasło<br /><br />
+                <input type="submit" value="Zarejestruj się">
+            </form>
+        </div>
+        <div id="f">
+            <h2>Dane kontaktowe</h2>
+            <ul>
+                <li><b>Adres:</b> Rynek 1 <br /> 36-050 Sokołów Młp.</li><br />
+                <li><b>Telefon:</b> +48 123 456 789</li><br />
+                <li><b>E-mail:</b> strona@email.pl</li>
+            </ul>
+        </div>
+        <div id="g">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2552.3272273122875!2d22.115121077135292!3d50.22979140322639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cddf72e93d799%3A0x1b6d6ae7f9a90243!2zUnluZWsgMSwgMzYtMDUwIFNva2_FgsOzdyBNYcWCb3BvbHNraQ!5e0!3m2!1spl!2spl!4v1695153506488!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        </div>
+    </div>
+  </main>
+</body>
+</html>
